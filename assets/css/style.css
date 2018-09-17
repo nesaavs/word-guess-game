@@ -1,0 +1,85 @@
+html,body{
+	padding:3;
+	margin:20px;
+	width:100%;
+	height:100%;
+	background-color:#ebffcc;
+	text-align:center;
+	font-family:arial;
+}
+header{
+	margin-top:-20px;
+}
+#main{
+	widows: 100%;
+	height:80%;
+}
+#incorrectGuesses{
+	width:50%;
+	float:left;
+}
+#hangmanLives{
+	width:50%;
+	float:right;
+}
+#popUpBox{
+	height:20px;
+	margin-top:-15px;
+}
+#popUpText{
+	
+}
+#lines{
+	margin-top:-5px;
+	margin-bottom:5px;
+}
+#display{
+	width:50%;
+	float:right;
+	margin-top:-35px;
+}
+#hangmanDisplay{
+	text-align:left;
+	font-size:15px;
+}
+#yes,#no{
+	display: inline-block;
+    margin: 20px;
+	padding:10px;
+	height:20px;
+	width:120px;
+	cursor:pointer;
+	text-align:center;
+}
+#finalYes,#finalNo{
+	display: inline-block;
+    margin: 20px;
+	padding:10px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+#yes,#finalYes{
+	background-color:green;
+}
+#no,#finalNo{
+	background-color:red;
+}
+#yesno{
+	text-align:center;
+}
+footer{
+	display:absolute;
+	margin-top:-80px;
+}
+@media screen and (max-width: 630px){
+	#incorrectGuesses,#hangmanLives{
+		display:block;
+		clear:both;
+		width:100%;
+	}
+	#display{
+		clear:both;
+		width:70%;
+	}
+}
